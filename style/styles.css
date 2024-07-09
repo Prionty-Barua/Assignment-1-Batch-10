@@ -29,7 +29,7 @@ body{
     font-size: 13px;
     border-radius: 8px;
 }
-/* banner section styles starts here */
+/* banner sections starts from here */
 .banner-container{
     background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -59,6 +59,24 @@ body{
     padding: 12px;
     border-radius: 8px;
 }
+
+/* main section starts from here */
+.description-2{
+    text-align: center;
+    margin: 80px;
+}
+.details{
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgb(80, 82, 82);
+}
+.utube{
+    margin-top: 25px;
+    padding: 30px;
+    border: 2px solid rgb(181, 180, 180);
+    border-radius: 5px;
+}
+/* footer sections starts from here */
 .footer-section1{
     background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
     opacity: 0.9;
