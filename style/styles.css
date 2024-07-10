@@ -11,6 +11,7 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 /* bonus task */
+
 .bonus{
     display: flex;
     font-size: 20px;
@@ -29,7 +30,13 @@ body{
     font-size: 13px;
     border-radius: 8px;
 }
+.little-description{
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgb(80, 82, 82);
+}
 /* banner sections starts from here */
+
 .banner-container{
     background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -61,31 +68,50 @@ body{
 }
 
 /* main section starts from here */
+
+.section-1{
+    padding: 30px;
+    margin: 120px;
+    color: rgba(13, 19, 33, 0.7);
+    background-color: rgba(13, 19, 33, 0.02);
+}
+.section-1-main-banner{
+    text-align: center;
+}
+.layer-1{
+    margin: 30px;
+    padding: 20px;
+    gap: 160px;
+    display: flex;
+}
+.layer-1-description{
+    margin: 30px;
+}
+.btn{
+    /* margin-right: 20px; */
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 100;
+}
+/* main section 3rd starts from here */
+
 .description-2{
     text-align: center;
-    margin: 80px;
+    margin: 120px;
 }
-.details-2{
-    margin-top: 20px;
-    font-size: 12px;
-    color: rgb(80, 82, 82);
-}
+
 .utube{
     margin-top: 25px;
-    padding: 30px;
+    padding: 20px;
     border: 2px solid rgb(181, 180, 180);
     border-radius: 5px;
 }
-/* main section 2nd starts from here */
+/* main section 3rd starts from here */
+
 .description-3{
     padding: 20px;
     text-align: center;
     margin: 80px;
-}
-.details-3{
-    padding: 20px;
-    text-align: center;
-    justify-content: center;
 }
 .languages{
     gap: 20px;
@@ -117,13 +143,13 @@ body{
     padding: 10px;
 }
 /* footer sections starts from here */
+
 .footer-section1{
     background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
     opacity: 0.9;
     width: 100%;
-    position: absolute;
     color: rgb(255, 255, 255);
-    margin-top: 120px;
+    margin-top: 20px;
     text-align: center;
     padding: 120px;
 }
@@ -135,7 +161,6 @@ body{
     width:630px;
     border-radius: 8px;
     padding: 10px 20px;
-    margin-bottom: 24px;  
 }
 .submit{
     padding: 10px 20px;;
@@ -143,13 +168,13 @@ body{
     font-size: 20px;
 }
 .footer-section-end{
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 6px;
     background: rgba(13, 19, 33, 0.03);
     display: flex;
-    /* margin-top: 400px; */
-    gap: 600px;
-    padding: 25px;
+    gap: 500px;
+    padding: 80px;
     width: 1342px;
     height: 80px;
+    margin-top: 40px;
 }
