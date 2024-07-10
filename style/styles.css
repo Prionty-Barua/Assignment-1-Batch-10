@@ -27,6 +27,7 @@ body{
 .bonus-btn{
     background-color: white;
     padding: 12px;
+    margin-top: 12px;
     font-size: 13px;
     border-radius: 8px;
 }
@@ -38,11 +39,10 @@ body{
 /* banner sections starts from here */
 
 .banner-container{
-    background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    margin-top: 10px;
 }
 .banner-content{
     display: flex;
@@ -54,7 +54,7 @@ body{
     padding: 120px;
     text-align: center;
 }
-.banner-content h1,h6,button{
+.banner-content h1,h6{
     margin: 20px;
 }
 .banner-content h6{
@@ -65,6 +65,8 @@ body{
     color: rgb(255, 255, 255);
     padding: 12px;
     border-radius: 8px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* main section 1st starts from here */
@@ -86,10 +88,11 @@ body{
 }
 .layer-1-description{
     margin: 30px;
+    text-align: left;
 }
 .btn{
-    /* margin-right: 20px; */
-    padding: 10px;
+    padding: 12px;
+    margin-top: 20px;
     font-size: 14px;
     font-weight: 100;
 }
@@ -163,11 +166,13 @@ body{
     align-items: center;
     padding: 20px;
 }
-
+.learn-more{
+    margin-top: 10px;
+}
 /* footer sections starts from here */
 
 .footer-section1{
-    background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-image: url(/assets/handshake.jpg);
     opacity: 0.9;
     width: 100%;
     color: rgb(255, 255, 255);
