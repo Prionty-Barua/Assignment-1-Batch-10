@@ -172,7 +172,7 @@ body{
 /* footer sections starts from here */
 
 .footer-section1{
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     opacity: 0.9;
     width: 100%;
     color: rgb(255, 255, 255);
