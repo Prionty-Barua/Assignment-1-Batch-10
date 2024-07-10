@@ -65,7 +65,7 @@ body{
     text-align: center;
     margin: 80px;
 }
-.details{
+.details-2{
     margin-top: 20px;
     font-size: 12px;
     color: rgb(80, 82, 82);
@@ -75,6 +75,46 @@ body{
     padding: 30px;
     border: 2px solid rgb(181, 180, 180);
     border-radius: 5px;
+}
+/* main section 2nd starts from here */
+.description-3{
+    padding: 20px;
+    text-align: center;
+    margin: 80px;
+}
+.details-3{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.languages{
+    gap: 20px;
+    padding: 20px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.language-title{
+    margin: 10px;
+}
+.language-details{
+    padding: 10px;
+}
+.html{
+    padding: 20px;
+    background-color:rgba(255, 76, 30, 0.05);
+}
+.css{
+    padding: 20px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.js{
+    padding: 20px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.learn{
+    padding: 10px;
 }
 /* footer sections starts from here */
 .footer-section1{
