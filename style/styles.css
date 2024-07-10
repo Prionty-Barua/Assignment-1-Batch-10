@@ -67,7 +67,7 @@ body{
     border-radius: 8px;
 }
 
-/* main section starts from here */
+/* main section 1st starts from here */
 
 .section-1{
     padding: 30px;
@@ -93,7 +93,7 @@ body{
     font-size: 14px;
     font-weight: 100;
 }
-/* main section 3rd starts from here */
+/* main section 2nd starts from here */
 
 .description-2{
     text-align: center;
@@ -142,6 +142,28 @@ body{
 .learn{
     padding: 10px;
 }
+/* practice part */
+.practice{
+    padding: 30px;
+    margin: 120px;
+    gap: 20px;
+    /* color: rgba(13, 19, 33, 0.7); */
+}
+.practice-head{
+    text-align: center;
+}
+.practice-layer{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    border: 2px solid rgb(181, 181, 181);
+    border-radius: 14px;
+}
+.language-img{
+    align-items: center;
+    padding: 20px;
+}
+
 /* footer sections starts from here */
 
 .footer-section1{
@@ -172,7 +194,7 @@ body{
     border-radius: 6px;
     background: rgba(13, 19, 33, 0.03);
     display: flex;
-    gap: 500px;
+    gap: 600px;
     padding: 80px;
     width: 1342px;
     height: 80px;
